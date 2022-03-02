@@ -1,0 +1,24 @@
+{
+  "name": "typescript-cheatsheet",
+  "version": "1.0.0",
+  "description": "Simple &amp; practical typescript cheatsheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaveofcode/typescript-cheatsheet.git"
+  },
+  "author": "Aditya Kresna Permana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slaveofcode/typescript-cheatsheet/issues"
+  },
+  "homepage": "https://github.com/slaveofcode/typescript-cheatsheet#readme",
+  "devDependencies": {
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  }
+}
