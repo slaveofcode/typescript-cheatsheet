@@ -26,8 +26,6 @@ function showPerson2(p: Readonly<Person>) {
   console.info(`with age ${p.age}`)
 }
 
-
-
 const p1: Immutable<Person> = {name: 'John', age: 25}
 showPerson1(p1)
 

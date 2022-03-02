@@ -2,6 +2,10 @@
 const literalTypes = () => {
   let places: 'sea' | 'mountain';
   let numbers: 5 | 4 | 3 | 2 | 1;
+  
+  type Mixed = string | number
+  const age1: Mixed = 25
+  const age2: Mixed = '25'
 
   places = 'sea';
   places = 'mountain';
